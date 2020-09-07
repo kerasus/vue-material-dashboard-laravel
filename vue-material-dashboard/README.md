@@ -1,6 +1,7 @@
 # [Vue Material Dashboard Laravel](https://vue-material-dashboard-laravel.creative-tim.com/?ref=mdpl-readme) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=Vue%20Material%20Dashboard%20Laravel%E2%9D%A4%EF%B8%8F%0Ahttps%3A//vue-material-dashboard-laravel.creative-tim.com/%20%23%vue%20%23%material%20%23design%20%23dashboard%20%23laravel%20via%20%40CreativeTim)
 
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-vue-material-dashboard-laravel.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-vue-material-dashboard-laravel/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-vue-material-dashboard-laravel/ct-vue-material-dashboard-laravel.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-vue-material-dashboard-laravel/issues?q=is%3Aissue+is%3Aclosed)
+![version](https://img.shields.io/badge/version-1.0.1-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/vue-material-dashboard-laravel.svg?maxAge=2592000)](https://github.com/creativetimofficial/vue-material-dashboard-laravelpro-/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/vue-material-dashboard-laravel/vue-material-dashboard-laravel.svg?maxAge=2592000)](https://github.com/creativetimofficial/vue-material-dashboard-laravel/issues?q=is%3Aissue+is%3Aclosed)
+
 
 *Frontend version*: Material Dashboard v2.1.2. More info at https://www.creative-tim.com/product/material-dashboard
 
@@ -52,11 +53,11 @@ Install VueCLI: https://cli.vuejs.org/guide/installation.html
 1. Navigate in your Laravel API project folder: `cd your-laravel-json-api-project`
 2. Install project dependencies: `composer install`
 3. Create a new .env file: `cp .env.example .env`
-3. Add your own database credentials in the .env file in DB_DATABASE, DB_USERNAME, DB_PASSWORD
+4. Generate application key: `php artisan key:generate`
 5. Create users table: `php artisan migrate --seed`
-6. Generate application key: `php artisan key:generate`
-7. Install Laravel Passport: `php artisan passport:install`
-8. Add your own mailtrap.io credentials in MAIL_USERNAME and MAIL_PASSWORD in the .env file
+6. Install Laravel Passport: `php artisan passport:install`
+7. Add your own mailtrap.io credentials in MAIL_USERNAME and MAIL_PASSWORD in the .env file
+8. Add your own database credentials in the .env file in DB_DATABASE, DB_USERNAME, DB_PASSWORD
 
 ## Vue Material Dashboard Project Installation
 
@@ -67,10 +68,9 @@ Install VueCLI: https://cli.vuejs.org/guide/installation.html
 5. `VUE_APP_API_BASE_URL` should contain the URL of your Laravel JSON:API Project. (eg. http://localhost:3000/api/v1)
 6. Run `npm run dev` to start the application in a local development environment or `npm run build`  to build release distributables.
 
-
 ## Element-UI
 
-Vue Material Dashboard json API also uses [element-ui](https://vuematerial.io/ui-elements/elevation) components, restyled to fit perfectly with the existing Material look & feel.
+  Vue Material Dashboard json API also uses [element-ui](https://vuematerial.io/ui-elements/elevation) components, restyled to fit perfectly with the existing Material look & feel.
 
 ## Usage
 
@@ -767,7 +767,7 @@ At present, we officially aim to support the last two versions of the following 
 - Documentation: <https://vue-material-dashboard-laravel.creative-tim.com/documentation?ref=vmdl-readme>
 - License Agreement: <https://www.creative-tim.com/license>
 - Support: <https://www.creative-tim.com/contact-us>
-- Issues: [Github Issues Page](https://github.com/creativetimofficial/ct-vue-material-dashboard-laravel/issues)
+- Issues: [Github Issues Page](https://github.com/creativetimofficial/vue-material-dashboard-laravel/issues)
 - **Dashboards:**
 
 | HTML | Laravel |
